@@ -11,6 +11,7 @@ mecab/
 mecab-neologd/  
 
 以下のURLに対して下記のように実行することで結果を取得できる。  
+postで送っても同様である。  
 例  
 mecab?sentence=abc  
 mecab-neologd?sentence=abc  
