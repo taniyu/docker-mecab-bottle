@@ -10,9 +10,9 @@ docker run --rm -p 3000:3000 taniyu/docker-mecab-bottle
 mecab/  
 mecab-neologd/  
 
-それぞれ後ろに、つけた文字列を形態素解析した結果を返却する。  
+以下のURLに対して下記のように実行することで結果を取得できる。  
 例  
-mecab/ほげ  
-mecab-neologd/ほげ  
+mecab?sentence=abc  
+mecab-neologd?sentence=abc  
 
 resultの中に、解析結果がそのまま入っている。
