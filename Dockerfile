@@ -23,5 +23,4 @@ RUN \
 RUN pip install mecab-python3 bottle gunicorn
 COPY main.py /usr/src/app/
 
-EXPOSE 8080
 CMD ["gunicorn", "-b", "0.0.0.0:3000", "-w", "2", "main:app"]
